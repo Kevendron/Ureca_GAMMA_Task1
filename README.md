@@ -29,7 +29,7 @@ Our experiments show that while RETFound excels in single-modality settings, the
 | RETFound (ViT-L) | CFP (REFUGE2) | ~90% | 0.67 | 0.94 | High sensitivity, moderate specificity |
 | RETFound (ViT-L) | CFP (GAMMA) | ~90% | 0.79 | 0.92 | Balanced performance |
 | RETFound (ViT-L) | OCT slices | ~78% | 0.64 | 0.80 | Very high sensitivity, low specificity |
-| Dual-branch ResNet34 | CFP + OCT | **80%** | **0.875** | **0.77** | Best multi-modal performance |
-| Dual-branch RETFound ViT | CFP + OCT | 60% | 0.37 | 0.57 | Struggled with small dataset |
+| Dual-branch ResNet34 | CFP + OCT | **80%** | **0.875** | **0.77** | Good multi-modal performance |
+| Dual-branch RETFound ViT | CFP + OCT | 85% | 0.77 | 0.66 | Better multi-modal performance |
 
 ---
